@@ -206,8 +206,15 @@ def reset_password(token: str, password_data: PasswordReset, db: Session = Depen
             detail="Reset token has expired"
         )
     
+    # Check if passwords match
+    if password_data.new_password != password_data.confirm_password:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Passwords do not match"
+        )
+    
     # Update password
-    password_hash = get_password_hash(password_data.password)
+    password_hash = get_password_hash(password_data.new_password)
     updated_user = update_user_password(user.id, password_hash, db)
     
     return {

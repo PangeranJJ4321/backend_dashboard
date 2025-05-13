@@ -89,10 +89,16 @@ async def request_password_reset(
 @router.post("/reset-password", response_model=MessageResponse)
 async def reset_user_password(
     token: str = Query(..., description="Password reset token"),
-    password_data: PasswordReset = Depends(),
+    new_password: str = Form(..., description="New password"),
+    confirm_password: str = Form(..., description="Confirm new password"),
     db: Session = Depends(get_db)
 ):
     try:
+        # Create a PasswordReset instance from form data
+        password_data = PasswordReset(
+            new_password=new_password,
+            confirm_password=confirm_password
+        )
         return reset_password(token, password_data, db)
     except HTTPException as e:
         raise e

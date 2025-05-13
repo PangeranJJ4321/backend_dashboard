@@ -27,7 +27,9 @@ def create_new_user(user_data: UserCreate, password_hash: str, verification_toke
         created_at=current_time,
         updated_at=current_time,  # Set initial updated_at same as created_at
         verification_token=verification_token,
-        token_expires=token_expires
+        token_expires=token_expires,
+        is_verified=False,  # Explicitly set default value
+        reset_token=None
     )
 
     # Save to database
@@ -49,7 +51,6 @@ def update_user_verification(user_id: str, db: Session = Depends(get_db)):
     return user
 
 def find_user_by_token(token: str, token_type: str, db: Session = Depends(get_db)):
-
     if token_type == "verification":
         return db.query(User).filter(User.verification_token == token).first()
     elif token_type == "reset":

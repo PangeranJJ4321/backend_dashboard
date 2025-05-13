@@ -1,7 +1,7 @@
-from pydantic import BaseModel, EmailStr, Field, field_validator
-from typing import Optional, List, Dict, Any
-from datetime import datetime, date
-from fastapi import Form, UploadFile, File
+from pydantic import BaseModel, EmailStr, validator
+from typing import Optional
+from datetime import datetime
+from fastapi import Form
 from uuid import UUID
 
 
@@ -72,17 +72,25 @@ class PasswordReset(BaseModel):
     new_password: str
     confirm_password: str
     
-    @field_validator('new_password')
+    @validator('new_password')
     def password_strength(cls, v):
         if len(v) < 8:
             raise ValueError('Password must be at least 8 characters long')
         return v
     
-    @field_validator('confirm_password')
+    @validator('confirm_password')
     def passwords_match(cls, v, values, **kwargs):
         if 'new_password' in values and v != values['new_password']:
             raise ValueError('Passwords do not match')
         return v
+
+    @classmethod
+    def as_form(
+        cls,
+        new_password: str = Form(...),
+        confirm_password: str = Form(...),
+    ):
+        return cls(new_password=new_password, confirm_password=confirm_password)
 
 
 class Token(BaseModel):
