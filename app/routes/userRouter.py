@@ -9,7 +9,7 @@ from app.controllers.userController import UserController
 
 router = APIRouter(
     prefix="/users",
-    tags=["users"]
+    tags=["Users"]
 )
 
 @router.post("/me/change-password", response_model=MessageResponse)

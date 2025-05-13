@@ -2,8 +2,7 @@ from typing import Optional, List
 from uuid import UUID
 from sqlalchemy.orm import Session
 from app.models.models import User, Project
-from app.schemas.user_schema import UserUpdate
-from app.schemas.project_schema import ProjectCreate, ProjectUpdate
+from app.schemas.projectSchema import ProjectCreate, ProjectUpdate
 
 class ProjectRepository:
     @staticmethod
