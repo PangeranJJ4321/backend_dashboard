@@ -44,7 +44,19 @@ Kita bikin backend API yang:
 * `XGBoostClassifier`
 
 ---
+Jadi workflow-nya gini kira-kira:
 
+📝 User daftar/login (bisa pakai email & password misalnya).
+
+🔐 Dapat JWT token (biar bisa akses route yang secure).
+
+🧠 User masukin data film (title, budget, genre, dst).
+
+🔮 Backend jalankan model prediksi (regresi & klasifikasi).
+
+💾 Hasil prediksi disimpan ke database (biar bisa dilihat lagi nanti).
+
+📊 Di dashboard, user bisa lihat histori prediksi mereka.
 ### 🗂️ Struktur Folder
 
 ```
