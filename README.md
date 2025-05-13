@@ -82,13 +82,13 @@ git clone https://github.com/PangeranJJ4321/backend_dashboard.git
 cd backend_dashboard
 
 # 3. Setup environment virtual
-python -m venv venv
+python -m venv backend
 
 # 4. Aktifkan environment
-# Untuk Windows:
-venv\Scripts\activate
+# Untuk Windows (git bash):
+source backend/scripts/activate
 # Untuk macOS/Linux:
-source venv/bin/activate
+source backend/bin/activate
 
 # 5. Install dependencies
 pip install -r requirements.txt
@@ -97,22 +97,13 @@ pip install -r requirements.txt
 # - Pastikan PostgreSQL sudah terinstall dan berjalan
 # - Buat database baru
 
-# 7. Buat file .env di root project
-DB_TYPE=postgresql
-DB_USER=youruser
-DB_PASSWORD=yourpass
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=film_investment_db
-JWT_SECRET=your_super_secret_key
-JWT_ALGORITHM=HS256
-JWT_EXPIRATION=3600
+# 7. Buat file .env dari .env.example di root project, silahkan disisi
 
-# 8. Jalankan migrasi database (jika ada)
+# 8. Jalankan migrasi database (jika ada) > nggak ada
 alembic upgrade head
 
 # 9. Run server development
-uvicorn app.main:app --reload --port 8000
+uvicorn main:app --reload 
 ```
 
 ### Setup dengan Docker
