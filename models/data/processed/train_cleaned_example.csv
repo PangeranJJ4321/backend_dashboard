@@ -1,3 +1,10 @@
-release_year,release_month,budget,popularity,runtime,vote_average,vote_count,lang_en,lang_others,genre_action,genre_comedy,genre_adventure,genre_fantasy,revenue,ROI,ROI_category
-2025,3,150000000,681.3142,101,5.869,126,1,0,0,1,1,1,10550000,-92.97,High Risk
-2025,3,40000000,352.8585,116,6.9,109,1,0,1,0,0,0,33392248,-16.52,Medium Risk
+release_year,release_month,budget,popularity,runtime,vote_average,vote_count,lang_en,lang_others,genre_action,genre_adventure,genre_animation,genre_comedy,genre_crime,genre_documentary,genre_drama,genre_family,genre_fantasy,genre_history,genre_horror,genre_music,genre_mystery,genre_romance,genre_science_fiction,genre_tv_movie,genre_thriller,genre_war,genre_western,revenue,ROI,ROI_category
+2025,3,150000000,681.3142,101,5.869,126,1,0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,10550000,-92.96666666666667,High Risk
+2025,3,40000000,352.8585,116,6.9,109,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,33392248,-16.51938,Medium Risk
+2025,2,180000000,308.3292,119,6.118,1204,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,409278201,127.37677833333333,No Risk
+2025,1,250000,223.5105,89,6.1,30,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,315648,26.2592,Low Risk
+2024,12,200000000,176.5402,118,7.446,1851,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,721046090,260.523045,No Risk
+2024,11,150000000,173.9289,99,7.109,2133,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1059544057,606.3627046666667,No Risk
+2025,3,50000000,173.4384,94,6.597,217,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,31420955,-37.15809,Medium Risk
+2025,3,270000000,158.5135,109,4.538,483,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,147200161,-45.48142185185185,Medium Risk
+2024,12,122000000,133.9372,110,7.8,2325,1,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,486018457,298.3757844262295,No Risk
