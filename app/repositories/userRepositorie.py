@@ -2,7 +2,7 @@ from datetime import datetime
 from fastapi import Depends
 from sqlalchemy.orm import Session
 from app.core.session import get_db
-from app.repositories.models import User
+from app.models.models import User
 from app.schemas.schemaUser import UserCreate
 
 
