@@ -4,11 +4,15 @@ import os
 from dotenv import load_dotenv
 from app.core.database import engine, Base
 from app.routes import authRouter
+from app.seeds.seed_genres import seed_genres
 
 load_dotenv()
 
 # Create database tables
 Base.metadata.create_all(bind=engine)
+
+# seed data gendre 
+seed_genres()
 
 app = FastAPI(
     title="Film Investment Risk Prediction API",
