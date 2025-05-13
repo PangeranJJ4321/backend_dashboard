@@ -13,7 +13,7 @@ from app.middleware.security import (
     get_password_hash,
     ACCESS_TOKEN_EXPIRE_MINUTES
 )
-from app.repositories.userRepositorie import (
+from app.repositories.authRepositories import (
     create_new_user, 
     find_user_by_email,
     get_user_by_id,
@@ -21,7 +21,7 @@ from app.repositories.userRepositorie import (
     find_user_by_token,
     update_user_password
 )
-from app.schemas.schemaUser import (
+from app.schemas.authSchema import (
     UserCreate, 
     UserResponse, 
     UserLogin, 
@@ -140,7 +140,7 @@ def login(user_data: UserLogin, db: Session = Depends(get_db)):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Incorrect email or password",
-            headers={"WWW-Authenticate": "JWT"},
+            headers={"WWW-Authenticate": "bearer"},
         )
         
     # Create access token
@@ -155,7 +155,7 @@ def login(user_data: UserLogin, db: Session = Depends(get_db)):
     return {
         "message": "Login successful",
         "access_token": access_token,
-        "token_type": "JWT",
+        "token_type": "bearer",
         "user": user_response
     }
 

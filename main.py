@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 from dotenv import load_dotenv
 from app.core.database import engine, Base
-from app.routes import authRouter
+from app.routes import authRouter, userRouter
 from app.seeds.seed_genres import seed_genres
 
 load_dotenv()
@@ -31,6 +31,7 @@ app.add_middleware(
 
 # Register routes
 app.include_router(authRouter.router, prefix="/api/v1")
+app.include_router(userRouter.router, prefix="/api/v1")
 
 @app.get("/", tags=["Root"])
 async def read_root():

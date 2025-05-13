@@ -9,7 +9,7 @@ from app.controllers.authController import (
     forgot_password, 
     reset_password
 )
-from app.schemas.schemaUser import (
+from app.schemas.authSchema import (
     RegisterResponse, 
     UserCreate, 
     UserResponse, 

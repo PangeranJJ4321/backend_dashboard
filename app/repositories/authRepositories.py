@@ -3,7 +3,7 @@ from fastapi import Depends
 from sqlalchemy.orm import Session
 from app.core.session import get_db
 from app.models.models import User
-from app.schemas.schemaUser import UserCreate
+from app.schemas.authSchema import UserCreate
 
 
 # get user by id
