@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import and_
 from app.models.models import Prediction, Genre, Project, User
 from app.schemas.predictionSchema import PredictionCreate
+from sqlalchemy import func
 
 
 class PredictionRepository:
@@ -44,7 +45,7 @@ class PredictionRepository:
         
         # Add genres (get existing or create new ones)
         for genre_name in genre_names:
-            genre = db.query(Genre).filter(Genre.name == genre_name).first()
+            genre = db.query(Genre).filter(Genre.name.ilike(genre_name)).first()
             if not genre:
                 genre = Genre(name=genre_name)
                 db.add(genre)
@@ -112,7 +113,8 @@ class PredictionRepository:
         if not project:
             raise ValueError("Project not found or doesn't belong to the user")
         
-        return db.query(Prediction).filter(Prediction.project_id == project_id).count()
+        return db.query(func.count()).select_from(Prediction).filter(Prediction.project_id == project_id).scalar()
+
     
     @staticmethod
     def get_prediction_by_id(db: Session, prediction_id: UUID, user_id: UUID) -> Optional[Prediction]:

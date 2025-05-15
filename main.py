@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from app.core.database import engine, Base
 from app.routes import authRouter, predictionRouter, projectRouter, userRouter
 from app.seeds.seed_genres import seed_genres
+from app.utils.test_prediction import test_prediction_flow
 
 load_dotenv()
 
@@ -12,7 +13,7 @@ load_dotenv()
 Base.metadata.create_all(bind=engine)
 
 # seed data gendre 
-seed_genres()
+# seed_genres()
 
 app = FastAPI(
     title="Film Investment Risk Prediction API",
@@ -38,7 +39,8 @@ app.include_router(projectRouter.router, prefix="/api/v1")
 # Prediction Routes
 app.include_router(predictionRouter.router, prefix="/api/v1")
 
-
+# test prediction
+# test_prediction_flow()
 @app.get("/", tags=["Root"])
 async def read_root():
     return {

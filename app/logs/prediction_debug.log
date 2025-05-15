@@ -1,0 +1,210 @@
+2025-05-15 01:17:12,441 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 01:17:12,442 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 01:17:12,442 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:17:12,443 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:17:12,443 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 01:17:12,443 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 01:17:12,446 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 01:17:12,446 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 01:17:12,446 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 01:17:12,448 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 01:17:12,449 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 01:17:12,450 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 01:17:12,453 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 14, 17, 17, 12, 451188, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 01:17:12,495 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 01:17:12,551 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 01:17:12,552 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 01:17:16,754 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 01:17:16,899 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 01:17:55,090 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 01:17:55,090 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 01:17:55,092 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:17:55,092 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:17:55,092 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 01:17:55,092 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 01:17:55,092 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 01:17:55,092 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 01:17:55,092 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 01:17:55,095 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 01:17:55,095 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 01:17:55,095 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 01:17:55,095 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 14, 17, 17, 55, 95024, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 01:17:55,098 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 01:17:55,150 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 01:17:55,150 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 01:17:56,894 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 01:17:57,148 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 01:28:16,622 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 01:28:16,622 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 01:28:16,622 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:28:16,622 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:28:16,622 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 01:28:16,622 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 01:28:16,622 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 01:28:16,625 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 01:28:16,626 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 01:28:16,626 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 01:28:16,626 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 01:28:16,626 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 01:28:16,630 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 14, 17, 28, 16, 629448, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 01:28:16,633 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 01:28:16,663 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 01:28:16,666 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 01:28:18,736 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 01:28:18,852 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 01:28:22,352 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 01:28:22,352 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 01:28:22,354 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:28:22,354 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:28:22,354 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 01:28:22,354 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 01:28:22,354 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 01:28:22,354 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 01:28:22,355 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 01:28:22,355 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 01:28:22,356 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 01:28:22,356 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 01:28:22,358 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 14, 17, 28, 22, 356929, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 01:28:22,362 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 01:28:22,390 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 01:28:22,392 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 01:28:24,172 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 01:28:24,285 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 01:29:19,029 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 01:29:19,032 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 01:29:19,032 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:29:19,032 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:29:19,032 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 01:29:19,032 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 01:29:19,032 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 01:29:19,032 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 01:29:19,032 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 01:29:19,032 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 01:29:19,038 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 01:29:19,038 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 01:29:19,042 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 14, 17, 29, 19, 38022, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 01:29:19,053 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 01:29:19,122 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 01:29:19,125 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 01:29:22,875 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 01:29:23,072 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 01:29:29,194 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 01:29:29,194 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 01:29:29,194 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:29:29,194 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:29:29,194 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 01:29:29,194 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 01:29:29,194 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 01:29:29,194 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 01:29:29,194 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 01:29:29,198 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 01:29:29,198 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 01:29:29,198 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 01:29:29,200 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 14, 17, 29, 29, 198670, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 01:29:29,203 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 01:29:29,234 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 01:29:29,234 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 01:29:30,956 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 01:29:31,092 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 01:30:07,127 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 01:30:07,127 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 01:30:07,130 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:30:07,130 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:30:07,130 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 01:30:07,130 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 01:30:07,130 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 01:30:07,132 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 01:30:07,132 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 01:30:07,133 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 01:30:07,133 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 01:30:07,133 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 01:30:07,133 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 14, 17, 30, 7, 133101, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 01:30:07,136 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 01:30:07,163 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 01:30:07,172 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 01:30:08,992 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 01:30:09,138 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 01:30:33,193 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 01:30:33,193 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 01:30:33,193 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:30:33,201 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:30:33,202 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 01:30:33,202 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 01:30:33,203 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 01:30:33,203 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 01:30:33,203 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 01:30:33,203 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 01:30:33,203 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 01:30:33,203 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 01:30:33,207 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 14, 17, 30, 33, 203152, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 01:30:33,213 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 01:30:33,243 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 01:30:33,243 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 01:30:35,502 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 01:30:35,712 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 01:31:16,963 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 01:31:16,972 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 14, 17, 31, 16, 963548, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 01:31:16,975 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 01:31:17,006 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 01:31:17,006 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 01:31:19,070 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 01:31:19,215 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Base directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Models directory: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Regression model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Classification model path: D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Models directory exists: True
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Regression directory exists: True
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Classification directory exists: True
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Regression model exists: True
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Classification model exists: True
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Files in model directory: ['klasifikasi', 'regresi']
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Files in regression directory: ['random_forest_regressor.pkl', 'random_forest_regressor_feature_importance.csv', 'xgboost_regressor.pkl', 'xgboost_regressor_feature_importance.csv']
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Files in classification directory: ['random_forest_classifier.pkl', 'random_forest_classifier_feature_importance.csv', 'xgboost_classifier.pkl', 'xgboost_classifier_feature_importance.csv']
+2025-05-15 22:12:24,321 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 5, 15, 14, 12, 24, 321663, tzinfo=datetime.timezone.utc), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 22:12:24,407 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 22:12:24,447 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              5  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 22:12:24,449 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 22:12:32,925 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 22:12:32,985 - prediction_debug - DEBUG - make_prediction completed successfully

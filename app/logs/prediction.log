@@ -1,0 +1,120 @@
+2025-05-15 01:17:12,453 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 01:17:12,478 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 01:17:12,551 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 01:17:12,552 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 01:17:12,554 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:17:16,649 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 01:17:16,651 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:17:16,754 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 01:17:16,771 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 01:17:16,772 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 01:17:16,793 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 01:17:16,884 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 01:17:55,095 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 01:17:55,098 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 01:17:55,150 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 01:17:55,150 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 01:17:55,152 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:17:56,732 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 01:17:56,732 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:17:56,888 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 01:17:56,938 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 01:17:56,942 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 01:17:56,974 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 01:17:57,129 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 01:28:16,630 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 01:28:16,633 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 01:28:16,666 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 01:28:16,666 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 01:28:16,666 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:28:18,664 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 01:28:18,666 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:28:18,736 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 01:28:18,752 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 01:28:18,752 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 01:28:18,768 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 01:28:18,822 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 01:28:22,358 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 01:28:22,358 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 01:28:22,391 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 01:28:22,392 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 01:28:22,392 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:28:24,127 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 01:28:24,128 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:28:24,172 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 01:28:24,185 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 01:28:24,185 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 01:28:24,204 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 01:28:24,272 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 01:29:19,044 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 01:29:19,048 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 01:29:19,124 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 01:29:19,125 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 01:29:19,125 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:29:22,758 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 01:29:22,758 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:29:22,875 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 01:29:22,904 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 01:29:22,904 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 01:29:22,932 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 01:29:23,046 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 01:29:29,200 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 01:29:29,203 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 01:29:29,234 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 01:29:29,234 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 01:29:29,234 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:29:30,868 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 01:29:30,870 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:29:30,954 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 01:29:30,986 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 01:29:30,986 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 01:29:30,997 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 01:29:31,075 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 01:30:07,133 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 01:30:07,136 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 01:30:07,172 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 01:30:07,172 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 01:30:07,172 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:30:08,928 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 01:30:08,930 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:30:08,992 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 01:30:09,008 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 01:30:09,008 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 01:30:09,024 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 01:30:09,115 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 01:30:33,207 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 01:30:33,209 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 01:30:33,243 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 01:30:33,243 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 01:30:33,243 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:30:35,406 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 01:30:35,406 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:30:35,499 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 01:30:35,538 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 01:30:35,540 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 01:30:35,565 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 01:30:35,690 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 01:31:16,972 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 01:31:16,975 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 01:31:17,006 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 01:31:17,006 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 01:31:17,010 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 01:31:18,976 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 01:31:18,979 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 01:31:19,070 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 01:31:19,093 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 01:31:19,093 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 01:31:19,112 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 01:31:19,192 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 22:12:24,321 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 22:12:24,390 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 22:12:24,449 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 22:12:24,449 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 22:12:24,450 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 22:12:32,832 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 22:12:32,832 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 22:12:32,925 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 22:12:32,935 - app.utils.prediction - INFO - Predicted revenue: $67,346,681
+2025-05-15 22:12:32,936 - app.utils.prediction - INFO - Calculated ROI: 573.47%
+2025-05-15 22:12:32,940 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 22:12:32,980 - app.utils.prediction - INFO - Prediction completed successfully
