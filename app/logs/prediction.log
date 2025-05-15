@@ -118,3 +118,39 @@
 2025-05-15 22:12:32,936 - app.utils.prediction - INFO - Calculated ROI: 573.47%
 2025-05-15 22:12:32,940 - app.utils.prediction - INFO - Predicted risk level: No Risk
 2025-05-15 22:12:32,980 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 22:15:51,196 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 22:15:51,230 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 22:15:51,296 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 22:15:51,297 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 22:15:51,297 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 22:15:53,424 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 22:15:53,425 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 22:15:53,504 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 22:15:53,514 - app.utils.prediction - INFO - Predicted revenue: $68,983,625
+2025-05-15 22:15:53,515 - app.utils.prediction - INFO - Calculated ROI: 589.84%
+2025-05-15 22:15:53,522 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 22:15:53,559 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 22:31:38,545 - app.utils.prediction - INFO - Preprocessing input for film: Test Film
+2025-05-15 22:31:38,563 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 22:31:38,617 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 22:31:38,618 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 22:31:38,618 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 22:31:40,572 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 22:31:40,572 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 22:31:40,652 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 22:31:40,661 - app.utils.prediction - INFO - Predicted revenue: $68,983,625
+2025-05-15 22:31:40,661 - app.utils.prediction - INFO - Calculated ROI: 589.84%
+2025-05-15 22:31:40,672 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 22:31:40,709 - app.utils.prediction - INFO - Prediction completed successfully
+2025-05-15 22:43:08,681 - app.utils.prediction - INFO - Preprocessing input for film: Test Film Delete
+2025-05-15 22:43:08,725 - app.utils.prediction - INFO - Input preprocessing completed successfully
+2025-05-15 22:43:08,784 - app.utils.prediction - INFO - Making prediction with preprocessed data
+2025-05-15 22:43:08,784 - app.utils.prediction - INFO - Loading prediction models
+2025-05-15 22:43:08,785 - app.utils.prediction - INFO - Loading regression model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\regresi\random_forest_regressor.pkl
+2025-05-15 22:43:08,873 - app.utils.prediction - INFO - Regression model loaded successfully
+2025-05-15 22:43:08,873 - app.utils.prediction - INFO - Loading classification model from D:\Kuliah-Semester-4\Data Meaning\Dashboard\backend\models\models\klasifikasi\random_forest_classifier.pkl
+2025-05-15 22:43:08,949 - app.utils.prediction - INFO - Classification model loaded successfully
+2025-05-15 22:43:08,975 - app.utils.prediction - INFO - Predicted revenue: $68,983,625
+2025-05-15 22:43:08,976 - app.utils.prediction - INFO - Calculated ROI: 589.84%
+2025-05-15 22:43:08,983 - app.utils.prediction - INFO - Predicted risk level: No Risk
+2025-05-15 22:43:09,018 - app.utils.prediction - INFO - Prediction completed successfully

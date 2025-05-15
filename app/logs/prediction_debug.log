@@ -208,3 +208,30 @@
 2025-05-15 22:12:24,449 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
 2025-05-15 22:12:32,925 - prediction_debug - DEBUG - load_models completed successfully
 2025-05-15 22:12:32,985 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 22:15:51,195 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 7, 15, 14, 12, 24, 321663, tzinfo=TzInfo(UTC)), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 22:15:51,251 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 22:15:51,295 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              7  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 22:15:51,296 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 22:15:53,504 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 22:15:53,566 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 22:31:38,544 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film', 'release_date': datetime.datetime(2025, 7, 15, 14, 12, 24, 321663, tzinfo=TzInfo(UTC)), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 22:31:38,578 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 22:31:38,617 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              7  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 22:31:38,617 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 22:31:40,652 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 22:31:40,719 - prediction_debug - DEBUG - make_prediction completed successfully
+2025-05-15 22:43:08,676 - prediction_debug - DEBUG - Calling preprocess_input with args: [], kwargs: {'film_title': 'Test Film Delete', 'release_date': datetime.datetime(2025, 7, 15, 14, 12, 24, 321663, tzinfo=TzInfo(UTC)), 'budget': 10000000, 'genres': ['Action', 'Adventure', 'Science Fiction'], 'popularity': 150.0, 'runtime': 120, 'vote_average': 7.5, 'vote_count': 1000, 'original_language': 'en'}
+2025-05-15 22:43:08,737 - prediction_debug - DEBUG - preprocess_input completed successfully
+2025-05-15 22:43:08,783 - prediction_debug - DEBUG - Calling make_prediction with args: [   release_year  release_month    budget  popularity  ...  genre_tv_movie  genre_thriller  genre_war  genre_western
+0          2025              7  10000000       150.0  ...               0               0          0              0
+
+[1 rows x 28 columns]], kwargs: {}
+2025-05-15 22:43:08,784 - prediction_debug - DEBUG - Calling load_models with args: [], kwargs: {}
+2025-05-15 22:43:08,949 - prediction_debug - DEBUG - load_models completed successfully
+2025-05-15 22:43:09,026 - prediction_debug - DEBUG - make_prediction completed successfully

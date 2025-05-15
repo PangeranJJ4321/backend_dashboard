@@ -290,7 +290,7 @@ def make_prediction(df: pd.DataFrame) -> Tuple[int, float, str, Dict[str, float]
         }
         
         logger.info("Prediction completed successfully")
-        return predicted_revenue, predicted_roi, risk_level, feature_importance
+        return predicted_revenue, float(predicted_roi), risk_level, feature_importance
     
     except Exception as e:
         logger.error(f"Error making prediction: {str(e)}")
