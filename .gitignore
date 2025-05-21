@@ -1,5 +1,3 @@
+/backend
 .env
-backend
-.env
-.vscode
-logs
+/.*
